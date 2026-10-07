@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data & model artifacts (too large for git — share via cloud/uni storage)
+data/*
+!data/README.md
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+
+# Experiment tracking
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
