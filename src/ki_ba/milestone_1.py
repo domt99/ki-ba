@@ -8,9 +8,10 @@ def adam_step(t, g, m, v, w_old, alpha=0.001, beta_1 = 0.9, beta_2 = 0.999, epsi
 
     Im Adam-Verfahren wird ueber die Epochen und die jeweiligen Mini-Batches in den Epochen
     iteriert. Diese Iteration ruft fuer jeden Schritt t die Funktion adam_step() auf,
-    um jeweils die Gewichte im numpy.Array w_new zu berechnen. Um den naechsten Schritt im Verfahren berechnen
-    zu koennen, benoetigt das Modell die neuen Werte fuer m und v, da fuer jedes Gewicht jeweils
-    ein eigenes m und v berechnet und gespeichert (adam_step gibt die Werte an das Modell zurueck) wird.
+    um jeweils die Gewichte im numpy.Array w_new zu berechnen. Um den naechsten Schritt im Verfahren
+    berechnen zu koennen, benoetigt das Modell die neuen Werte fuer m und v, da fuer jedes Gewicht
+    jeweils ein eigenes m und v berechnet und gespeichert
+    (adam_step gibt die Werte an das Modell zurueck) wird.
 
     Die Startwerte fuer m und v sind 0, da es fuer t = 1 keine vergangenen Gradienten gibt.
 
