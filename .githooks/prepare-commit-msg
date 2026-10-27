@@ -1,0 +1,18 @@
+#!/bin/sh
+# Adds the other team member as co-author to every commit.
+# Enable once per clone: git config core.hooksPath .githooks
+
+msg_file="$1"
+
+domenic="Domenic Theis <domenictheis@gmail.com>"
+maurice="maurice-myr <maurice.myr@outlook.de>"
+
+email=$(git config user.email | tr '[:upper:]' '[:lower:]')
+case "$email" in
+    domenictheis@gmail.com) coauthor="$maurice" ;;
+    maurice.myr@outlook.de) coauthor="$domenic" ;;
+    *) exit 0 ;;
+esac
+
+git interpret-trailers --in-place --if-exists addIfDifferent \
+    --trailer "Co-authored-by: $coauthor" "$msg_file"

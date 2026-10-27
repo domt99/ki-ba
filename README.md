@@ -12,6 +12,7 @@ Requires [uv](https://docs.astral.sh/uv/) (`curl -LsSf https://astral.sh/uv/inst
 git clone git@github.com:domt99/ki-ba.git
 cd ki-ba
 uv sync              # creates .venv and installs all deps (incl. dev tools)
+git config core.hooksPath .githooks  # auto-adds the other person as co-author
 ```
 
 ## Common commands
@@ -38,6 +39,9 @@ ROADMAP.md   shared notes, ideas, todos
 
 ## Workflow
 
+- Every commit credits both of us: the hook in `.githooks/` adds the other person as
+  `Co-authored-by:` (needs the `core.hooksPath` setting from Setup and `user.email` set to the
+  address it knows).
 - Small changes: commit to `main` directly. Bigger features: branch + pull request.
 - Clear notebook outputs before committing where possible (keeps diffs small).
 - Never commit datasets or model weights — document where to get them instead.
