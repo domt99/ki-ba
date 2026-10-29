@@ -116,10 +116,10 @@ Komponenten:
 1. Datenaufbereitung
 2. Trainingsprozess (Framework)
 3. Netz
-4. Trainingsart (Rprop- oder Adam)
+4. Trainingsart (Rprop- oder Adam) (Optimizer!)
 5. Input Layer
 6. Hidden Layer
-7. Ouput Layer
+7. Ouput Layer -> Lossfunktion + CCE mit in Komponente
 8. Aktivierungsfunktion
 
 
