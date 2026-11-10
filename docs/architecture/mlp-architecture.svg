@@ -1,174 +1,176 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="512 0 3130 2624" width="3130" height="2624" font-family="Nunito, Segoe UI, Helvetica, Arial, sans-serif">
-<rect x="512" y="0" width="3130" height="2624" fill="#ffffff"/>
-<rect x="552.0" y="120.0" width="400.0" height="152.0" rx="8" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-<rect x="1132.0" y="40.0" width="736.0" height="472.0" rx="8" fill="none" stroke="#1e1e1e" stroke-width="2"/>
-<rect x="1272.0" y="632.0" width="456.0" height="252.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="2454.0" y="120.0" width="344.0" height="132.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="2028.0" y="360.0" width="344.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="2422.0" y="360.0" width="408.0" height="192.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="2880.0" y="360.0" width="344.0" height="192.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1300.0" y="1004.0" width="400.0" height="132.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1100.0" y="1276.0" width="400.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1660.0" y="1276.0" width="480.0" height="352.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1460.0" y="1768.0" width="344.0" height="212.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1884.0" y="1768.0" width="456.0" height="232.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="2560.0" y="1276.0" width="496.0" height="192.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="2560.0" y="1608.0" width="496.0" height="212.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="3106.0" y="1608.0" width="496.0" height="212.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1456.0" y="2140.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1054.0" y="2432.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1456.0" y="2432.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="1858.0" y="2432.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<rect x="552.0" y="392.0" width="360.0" height="270.0" rx="8" fill="none" stroke="#1e1e1e" stroke-width="1"/>
-<rect x="572.0" y="614.0" width="40.0" height="18.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="552.0,160.0 952.0,160.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="1"/>
-<polyline points="552.0,236.0 952.0,236.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="1"/>
-<polyline points="1132.0,80.0 1868.0,80.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="1"/>
-<polyline points="1132.0,396.0 1868.0,396.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="1"/>
-<polyline points="1272.0,672.0 1728.0,672.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1272.0,808.0 1728.0,808.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2454.0,180.0 2798.0,180.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2454.0,216.0 2798.0,216.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2028.0,420.0 2372.0,420.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2028.0,476.0 2372.0,476.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2422.0,420.0 2830.0,420.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2422.0,496.0 2830.0,496.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2880.0,420.0 3224.0,420.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2880.0,496.0 3224.0,496.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1300.0,1064.0 1700.0,1064.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1300.0,1100.0 1700.0,1100.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1100.0,1336.0 1500.0,1336.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1100.0,1392.0 1500.0,1392.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1660.0,1336.0 2140.0,1336.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1660.0,1512.0 2140.0,1512.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1460.0,1828.0 1804.0,1828.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1460.0,1924.0 1804.0,1924.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1884.0,1828.0 2340.0,1828.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1884.0,1964.0 2340.0,1964.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2560.0,1336.0 3056.0,1336.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2560.0,1432.0 3056.0,1432.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2560.0,1668.0 3056.0,1668.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="2560.0,1784.0 3056.0,1784.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="3106.0,1668.0 3602.0,1668.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="3106.0,1784.0 3602.0,1784.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1456.0,2200.0 1808.0,2200.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1456.0,2256.0 1808.0,2256.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1054.0,2492.0 1406.0,2492.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1054.0,2548.0 1406.0,2548.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1456.0,2492.0 1808.0,2492.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1456.0,2548.0 1808.0,2548.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1858.0,2492.0 2210.0,2492.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1858.0,2548.0 2210.0,2548.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
-<polyline points="1126.0,236.0 958.0,218.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
-<polyline points="972.8,212.1 958.0,218.0 971.2,227.0" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-<polyline points="1874.0,246.1 2448.0,200.2" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
-<polyline points="2434.5,208.8 2448.0,200.2 2433.3,193.9" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-<polyline points="1500.0,518.0 1500.0,626.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
-<polyline points="1492.5,611.9 1500.0,626.0 1507.5,611.9" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-<polyline points="1500.0,890.0 1500.0,998.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1492.5,983.9 1500.0,998.0 1507.5,983.9" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
-<polygon points="1500.0,890.0 1509.0,902.0 1500.0,914.0 1491.0,902.0" fill="#2f9e44" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="2334.7,357.0 2508.4,255.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="2498.5,272.4 2508.4,255.0 2488.4,255.2" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="2626.0,354.0 2626.0,258.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="2636.0,275.3 2626.0,258.0 2616.0,275.3" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="2895.5,356.8 2735.2,255.2" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="2755.2,256.0 2735.2,255.2 2744.5,272.9" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1357.4,1271.1 1449.7,1140.9" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="1447.9,1160.8 1449.7,1140.9 1431.5,1149.2" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1711.4,1271.9 1573.4,1140.1" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="1592.9,1144.9 1573.4,1140.1 1579.1,1159.3" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1702.5,1762.9 1785.0,1633.1" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
-<polygon points="1784.2,1653.0 1785.0,1633.1 1767.3,1642.3" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="2052.4,1762.6 1989.0,1633.4" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
-<polygon points="2005.6,1644.5 1989.0,1633.4 1987.7,1653.3" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="2146.0,1430.3 2554.0,1394.4" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="2540.6,1403.1 2554.0,1394.4 2539.3,1388.1" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
-<polyline points="2808.0,1602.0 2808.0,1474.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="2818.0,1491.3 2808.0,1474.0 2798.0,1491.3" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="3179.7,1604.8 2966.3,1471.2" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="2986.3,1471.9 2966.3,1471.2 2975.7,1488.9" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1632.0,1986.0 1632.0,2134.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1624.5,2119.9 1632.0,2134.0 1639.5,2119.9" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
-<polyline points="1339.5,2428.5 1522.5,2295.5" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="1514.4,2313.8 1522.5,2295.5 1502.6,2297.6" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1632.0,2426.0 1632.0,2298.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="1642.0,2315.3 1632.0,2298.0 1622.0,2315.3" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="1924.5,2428.5 1741.5,2295.5" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="1761.4,2297.6 1741.5,2295.5 1749.6,2313.8" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
-<polyline points="572.0,462.0 682.0,462.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2" stroke-dasharray="8 6"/>
-<polygon points="664.7,472.0 682.0,462.0 664.7,452.0" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
-<polyline points="572.0,502.0 682.0,502.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
-<polygon points="664.7,512.0 682.0,502.0 664.7,492.0" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
-<polyline points="572.0,542.0 682.0,542.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
-<polyline points="667.9,549.5 682.0,542.0 667.9,534.5" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-<polyline points="572.0,582.0 682.0,582.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
-<polyline points="667.9,589.5 682.0,582.0 667.9,574.5" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
-<polygon points="572.0,582.0 584.0,573.0 596.0,582.0 584.0,591.0" fill="#1e1e1e" stroke="#1e1e1e" stroke-width="2"/>
-<text font-size="16" fill="#1e1e1e" text-anchor="middle" xml:space="preserve"><tspan x="752.0" y="145.2">Datenaufbereitung</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="568.0" y="183.2">__init__() -&gt; call normalizeData</tspan><tspan x="568.0" y="203.2">normalizeData( np.array trainData ) : np.array</tspan><tspan x="568.0" y="223.2">randomizeData( batchsize )</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="568.0" y="259.2">RawTrainData (numpy array)</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="65.2">Framework</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="1148.0" y="103.2">main:</tspan><tspan x="1148.0" y="123.2">    readEnvFile() : epochCount, batchSize, layerCount, neuronPerLayerCount,</tspan><tspan x="1148.0" y="143.2">        optimizerType, calculationType, alpha, beta_1, beta_2, epsilon,</tspan><tspan x="1148.0" y="163.2">        Array Activation Functions</tspan><tspan x="1148.0" y="183.2">    new DataPrep = DataPrep()</tspan><tspan x="1148.0" y="203.2">    self.Optimizer = createOptimizer( OPTIMIZERTYPE )</tspan><tspan x="1148.0" y="223.2">    self.Calculation = createCalculation( CALCULATIONTYPE )</tspan><tspan x="1148.0" y="243.2">    iterates over epoches</tspan><tspan x="1148.0" y="263.2">        miniBatches = randomizeData( batchsize )</tspan><tspan x="1148.0" y="283.2">        iterates: for currentBatch in miniBatches</tspan><tspan x="1148.0" y="303.2">            InputLayer = InputLayer( neuronCount )</tspan><tspan x="1148.0" y="323.2">            OutputLayer = OutputLayer( neuronCount, neuronCountPrev, calculation )</tspan><tspan x="1148.0" y="343.2">            LOOP: HiddenLayer = HiddenLayer( neuronCount, neuronCountPrev, calculation )</tspan><tspan x="1148.0" y="363.2">            trainModel()</tspan><tspan x="1148.0" y="383.2">    initializeGradients() : gradienten</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="1148.0" y="419.2">Calculation calculation</tspan><tspan x="1148.0" y="439.2">Optimizer optimizer</tspan><tspan x="1148.0" y="459.2">miniBatches (numpy array)</tspan><tspan x="1148.0" y="479.2">epochCount, batchSize, layerCount, neuronPerLayerCount,</tspan><tspan x="1148.0" y="499.2">optimizerType, calculationType, gradienten</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="657.2">MLP</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1288.0" y="695.2">__init__( inputLayer, hiddenLayers, outputLayer )</tspan><tspan x="1288.0" y="715.2">forwardPropagation( currentBatch ) : prediction</tspan><tspan x="1288.0" y="735.2">calculateLoss( prediction, targetValue ) : errorValue</tspan><tspan x="1288.0" y="755.2">backwardPropagation( targetValue ) : List gradients</tspan><tspan x="1288.0" y="775.2">getWeights() : List currWeights</tspan><tspan x="1288.0" y="795.2">setWeights( List newWeights )</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1288.0" y="831.2">InputLayer inputLayer</tspan><tspan x="1288.0" y="851.2">List&lt;HiddenLayer&gt; hiddenLayers</tspan><tspan x="1288.0" y="871.2">OutputLayer outputLayer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2626.0" y="145.2">«interface»</tspan><tspan x="2626.0" y="165.2">Optimizer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2470.0" y="203.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2200.0" y="385.2">Class</tspan><tspan x="2200.0" y="405.2">Gradientenabstieg</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2044.0" y="443.2">__init__( learningRate )</tspan><tspan x="2044.0" y="463.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2044.0" y="499.2">learningRate</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2626.0" y="385.2">Class</tspan><tspan x="2626.0" y="405.2">Rprop</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2438.0" y="443.2">__init__( n_pos=1.2, n_neg=0.5, delta_null=0.5,</tspan><tspan x="2438.0" y="463.2">    deltaMin=0, deltaMax=50 )</tspan><tspan x="2438.0" y="483.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2438.0" y="519.2">List delta, List g_old</tspan><tspan x="2438.0" y="539.2">n_pos, n_neg, delta_null, deltaMin, deltaMax</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="3052.0" y="385.2">Class</tspan><tspan x="3052.0" y="405.2">Adam</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2896.0" y="443.2">__init__( alpha=0.001, beta_1=0.9,</tspan><tspan x="2896.0" y="463.2">    beta_2=0.999, epsilon=1e-8 )</tspan><tspan x="2896.0" y="483.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2896.0" y="519.2">List m, List v, t</tspan><tspan x="2896.0" y="539.2">alpha, beta_1, beta_2, epsilon</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="1029.2">«interface»</tspan><tspan x="1500.0" y="1049.2">Layer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1316.0" y="1087.2">forwardStep( neuronValuesPrev ) : neuronValues</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1300.0" y="1301.2">Class</tspan><tspan x="1300.0" y="1321.2">Input Layer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1116.0" y="1359.2">__init__( neuronCount )</tspan><tspan x="1116.0" y="1379.2">forwardStep( neuronValuesPrev ) : neuronValues</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1116.0" y="1415.2">neuronCount</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1900.0" y="1301.2">«abstract»</tspan><tspan x="1900.0" y="1321.2">Dense Layer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1676.0" y="1359.2">__init__( calculation, neuronCountPrev, neuronCount )</tspan><tspan x="1676.0" y="1379.2">initializeWeights()</tspan><tspan x="1676.0" y="1399.2">forwardStep( neuronValuesPrev ) : neuronValues</tspan><tspan x="1676.0" y="1419.2">activate( net ) : neuronValues   «abstract»</tspan><tspan x="1676.0" y="1439.2">backwardStep( backpropError ) : gradient, deltaPrevLayer</tspan><tspan x="1676.0" y="1459.2">calculateDelta( backpropError ) : delta   «abstract»</tspan><tspan x="1676.0" y="1479.2">getWeights() : weights</tspan><tspan x="1676.0" y="1499.2">setWeights( newWeights )</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1676.0" y="1535.2">neuronCount</tspan><tspan x="1676.0" y="1555.2">neuronCountPrev</tspan><tspan x="1676.0" y="1575.2">weights</tspan><tspan x="1676.0" y="1595.2">neuronValuesExt</tspan><tspan x="1676.0" y="1615.2">Calculation calculation</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1632.0" y="1793.2">Class</tspan><tspan x="1632.0" y="1813.2">Hidden Layer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1476.0" y="1851.2">__init__( calculation, neuronCountPrev,</tspan><tspan x="1476.0" y="1871.2">    neuronCount, activationFunc )</tspan><tspan x="1476.0" y="1891.2">activate( net ) : neuronValues</tspan><tspan x="1476.0" y="1911.2">calculateDelta( backpropError ) : delta</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1476.0" y="1947.2">net</tspan><tspan x="1476.0" y="1967.2">activationFunc</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2112.0" y="1793.2">Class</tspan><tspan x="2112.0" y="1813.2">OutputLayer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1900.0" y="1851.2">__init__( calculation, neuronCountPrev, neuronCount )</tspan><tspan x="1900.0" y="1871.2">activate( net ) : prediction</tspan><tspan x="1900.0" y="1891.2">softmax( net ) : prediction</tspan><tspan x="1900.0" y="1911.2">calculateDelta( targetValue ) : delta</tspan><tspan x="1900.0" y="1931.2">categoricalCrossEntropy( prediction, targetValue )</tspan><tspan x="1900.0" y="1951.2">    : errorValue</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1900.0" y="1987.2">prediction</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2808.0" y="1301.2">«interface»</tspan><tspan x="2808.0" y="1321.2">Calculation</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2576.0" y="1359.2">calculateNet( extendedInput, currentWeights ) : net</tspan><tspan x="2576.0" y="1379.2">calculateGradient( extendedInput, delta ) : gradient</tspan><tspan x="2576.0" y="1399.2">calculateBackpropError( delta, weights(without row null) )</tspan><tspan x="2576.0" y="1419.2">    : deltaPrevLayer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2808.0" y="1633.2">Class</tspan><tspan x="2808.0" y="1653.2">Loop</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2576.0" y="1691.2">__init__()</tspan><tspan x="2576.0" y="1711.2">calculateNet( extendedInput, currentWeights ) : net</tspan><tspan x="2576.0" y="1731.2">calculateGradient( extendedInput, delta ) : gradient</tspan><tspan x="2576.0" y="1751.2">calculateBackpropError( delta, weights(without row null) )</tspan><tspan x="2576.0" y="1771.2">    : deltaPrevLayer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="3354.0" y="1633.2">Class</tspan><tspan x="3354.0" y="1653.2">Matrix</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="3122.0" y="1691.2">__init__()</tspan><tspan x="3122.0" y="1711.2">calculateNet( extendedInput, currentWeights ) : net</tspan><tspan x="3122.0" y="1731.2">calculateGradient( extendedInput, delta ) : gradient</tspan><tspan x="3122.0" y="1751.2">calculateBackpropError( delta, weights(without row null) )</tspan><tspan x="3122.0" y="1771.2">    : deltaPrevLayer</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1632.0" y="2165.2">«interface»</tspan><tspan x="1632.0" y="2185.2">Activation Function</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1472.0" y="2223.2">activationFunc( net ) : output</tspan><tspan x="1472.0" y="2243.2">activationFuncDerivative( net ) : output</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1230.0" y="2457.2">Class</tspan><tspan x="1230.0" y="2477.2">ReLU</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1070.0" y="2515.2">activationFunc( net ) : output</tspan><tspan x="1070.0" y="2535.2">activationFuncDerivative( net ) : output</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1632.0" y="2457.2">Class</tspan><tspan x="1632.0" y="2477.2">Sigmoid</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1472.0" y="2515.2">activationFunc( net ) : output</tspan><tspan x="1472.0" y="2535.2">activationFuncDerivative( net ) : output</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2034.0" y="2457.2">Class</tspan><tspan x="2034.0" y="2477.2">Identität</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1874.0" y="2515.2">activationFunc( net ) : output</tspan><tspan x="1874.0" y="2535.2">activationFuncDerivative( net ) : output</tspan></text>
-<rect x="1018.0" y="215.0" width="48.0" height="24.0" fill="#ffffff"/>
-<text font-size="16" fill="#1e1e1e" text-anchor="middle" xml:space="preserve"><tspan x="1042.0" y="232.2">nutzt</tspan></text>
-<rect x="2137.0" y="211.2" width="48.0" height="24.0" fill="#ffffff"/>
-<text font-size="16" fill="#1e1e1e" text-anchor="middle" xml:space="preserve"><tspan x="2161.0" y="228.4">nutzt</tspan></text>
-<rect x="1460.0" y="560.0" width="80.0" height="24.0" fill="#ffffff"/>
-<text font-size="16" fill="#1e1e1e" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="577.2">trainiert</tspan></text>
-<rect x="1452.0" y="932.0" width="96.0" height="24.0" fill="#ffffff"/>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="949.2">besteht aus</tspan></text>
-<rect x="2326.0" y="1400.4" width="48.0" height="24.0" fill="#ffffff"/>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2350.0" y="1417.6">nutzt</tspan></text>
-<rect x="1608.0" y="2048.0" width="48.0" height="24.0" fill="#ffffff"/>
-<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1632.0" y="2065.2">nutzt</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="middle" xml:space="preserve"><tspan x="732.0" y="419.2">Legende</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="702.0" y="467.2">implementiert (Interface)</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="702.0" y="507.2">erbt von (Klasse)</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="702.0" y="547.2">nutzt</tspan></text>
-<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="702.0" y="587.2">besteht aus</tspan></text>
-<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="627.0" y="627.2">grün = abgehakt</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="380 0 3326 2784" width="3326" height="2784" font-family="Nunito, Segoe UI, Helvetica, Arial, sans-serif">
+<rect x="380" y="0" width="3326" height="2784" fill="#ffffff"/>
+<rect x="420.0" y="120.0" width="544.0" height="272.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1144.0" y="40.0" width="712.0" height="612.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="420.0" y="882.0" width="304.0" height="312.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1272.0" y="772.0" width="456.0" height="272.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="2442.0" y="120.0" width="344.0" height="132.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="2016.0" y="360.0" width="344.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="2410.0" y="360.0" width="408.0" height="192.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="2868.0" y="360.0" width="344.0" height="192.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1300.0" y="1164.0" width="400.0" height="132.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1068.0" y="1436.0" width="400.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1628.0" y="1436.0" width="544.0" height="352.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1396.0" y="1928.0" width="384.0" height="212.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1860.0" y="1928.0" width="544.0" height="232.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="2624.0" y="1436.0" width="496.0" height="192.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="2624.0" y="1768.0" width="496.0" height="212.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="3170.0" y="1768.0" width="496.0" height="212.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1412.0" y="2300.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1010.0" y="2592.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1412.0" y="2592.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="1814.0" y="2592.0" width="352.0" height="152.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<rect x="420.0" y="512.0" width="360.0" height="270.0" rx="8" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+<rect x="440.0" y="734.0" width="40.0" height="18.0" rx="8" fill="none" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="420.0,180.0 964.0,180.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="420.0,296.0 964.0,296.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1144.0,100.0 1856.0,100.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1144.0,536.0 1856.0,536.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="420.0,942.0 724.0,942.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="420.0,978.0 724.0,978.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1272.0,832.0 1728.0,832.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1272.0,968.0 1728.0,968.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2442.0,180.0 2786.0,180.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2442.0,216.0 2786.0,216.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2016.0,420.0 2360.0,420.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2016.0,476.0 2360.0,476.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2410.0,420.0 2818.0,420.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2410.0,496.0 2818.0,496.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2868.0,420.0 3212.0,420.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2868.0,496.0 3212.0,496.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1300.0,1224.0 1700.0,1224.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1300.0,1260.0 1700.0,1260.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1068.0,1496.0 1468.0,1496.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1068.0,1552.0 1468.0,1552.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1628.0,1496.0 2172.0,1496.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1628.0,1672.0 2172.0,1672.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1396.0,1988.0 1780.0,1988.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1396.0,2084.0 1780.0,2084.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1860.0,1988.0 2404.0,1988.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1860.0,2124.0 2404.0,2124.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2624.0,1496.0 3120.0,1496.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2624.0,1592.0 3120.0,1592.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2624.0,1828.0 3120.0,1828.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="2624.0,1944.0 3120.0,1944.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="3170.0,1828.0 3666.0,1828.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="3170.0,1944.0 3666.0,1944.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1412.0,2360.0 1764.0,2360.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1412.0,2416.0 1764.0,2416.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1010.0,2652.0 1362.0,2652.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1010.0,2708.0 1362.0,2708.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1412.0,2652.0 1764.0,2652.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1412.0,2708.0 1764.0,2708.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1814.0,2652.0 2166.0,2652.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1814.0,2708.0 2166.0,2708.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="1"/>
+<polyline points="1138.0,305.7 970.0,287.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="986.7,281.3 970.0,287.0 985.0,296.2" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1139.2,615.1 728.8,921.1" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="737.2,905.5 728.8,921.1 746.1,917.5" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1861.9,294.0 2436.1,211.6" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="2421.3,221.3 2436.1,211.6 2419.2,206.4" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1500.0,658.0 1500.0,766.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1492.5,750.0 1500.0,766.0 1507.5,750.0" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1500.0,1050.0 1500.0,1158.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1492.5,1142.0 1500.0,1158.0 1507.5,1142.0" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1500.0,1050.0 1509.0,1062.0 1500.0,1074.0 1491.0,1062.0" fill="#2f9e44" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="2322.7,357.0 2496.4,255.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="2484.2,273.8 2496.4,255.0 2474.1,256.5" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="2614.0,354.0 2614.0,258.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="2624.0,278.0 2614.0,258.0 2604.0,278.0" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="2883.5,356.8 2723.2,255.2" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="2745.4,257.5 2723.2,255.2 2734.7,274.4" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1334.3,1431.4 1441.9,1300.6" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="1436.9,1322.4 1441.9,1300.6 1421.5,1309.7" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1711.4,1431.9 1573.4,1300.1" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="1594.8,1306.7 1573.4,1300.1 1581.0,1321.2" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1669.9,1923.2 1766.3,1792.8" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polygon points="1762.5,1814.9 1766.3,1792.8 1746.4,1803.0" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="2066.9,1922.7 1997.4,1793.3" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polygon points="2015.6,1806.2 1997.4,1793.3 1998.0,1815.6" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="2178.0,1589.1 2618.0,1552.9" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="2602.7,1561.7 2618.0,1552.9 2601.5,1546.7" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="2872.0,1762.0 2872.0,1634.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="2882.0,1654.0 2872.0,1634.0 2862.0,1654.0" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="3243.7,1764.8 3030.3,1631.2" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="3052.6,1633.3 3030.3,1631.2 3042.0,1650.3" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1588.0,2146.0 1588.0,2294.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1580.5,2278.0 1588.0,2294.0 1595.5,2278.0" fill="none" stroke="#2f9e44" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1295.5,2588.5 1478.5,2455.5" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="1468.2,2475.4 1478.5,2455.5 1456.5,2459.2" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1588.0,2586.0 1588.0,2458.0" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="1598.0,2478.0 1588.0,2458.0 1578.0,2478.0" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="1880.5,2588.5 1697.5,2455.5" fill="none" stroke-linecap="round" stroke="#2f9e44" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="1719.5,2459.2 1697.5,2455.5 1707.8,2475.4" fill="#ffffff" stroke="#2f9e44" stroke-width="2"/>
+<polyline points="440.0,582.0 550.0,582.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="530.0,592.0 550.0,582.0 530.0,572.0" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+<polyline points="440.0,622.0 550.0,622.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
+<polygon points="530.0,632.0 550.0,622.0 530.0,612.0" fill="#ffffff" stroke="#1e1e1e" stroke-width="2"/>
+<polyline points="440.0,662.0 550.0,662.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
+<polyline points="534.0,669.5 550.0,662.0 534.0,654.5" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="440.0,702.0 550.0,702.0" fill="none" stroke-linecap="round" stroke="#1e1e1e" stroke-width="2"/>
+<polyline points="534.0,709.5 550.0,702.0 534.0,694.5" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="440.0,702.0 452.0,693.0 464.0,702.0 452.0,711.0" fill="#1e1e1e" stroke="#1e1e1e" stroke-width="2"/>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="692.0" y="145.2">Class</tspan><tspan x="692.0" y="165.2">DataPrep</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="436.0" y="203.2">__init__( rawImages, rawLabels, classCount,</tspan><tspan x="436.0" y="223.2">    scaleFactor, validationSize, seed )</tspan><tspan x="436.0" y="243.2">_oneHot( rawLabels ) : labels</tspan><tspan x="436.0" y="263.2">getMiniBatches( batchSize ) : List of ( imageBatch, labelBatch )</tspan><tspan x="436.0" y="283.2">getValidationData() : validationImages, validationLabels</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="436.0" y="319.2">classCount, scaleFactor, validationSize</tspan><tspan x="436.0" y="339.2">trainImages, trainLabels</tspan><tspan x="436.0" y="359.2">validationImages, validationLabels</tspan><tspan x="436.0" y="379.2">rng</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="65.2">Class</tspan><tspan x="1500.0" y="85.2">Framework</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1160.0" y="123.2">main:</tspan><tspan x="1160.0" y="143.2">    self.config = readEnvFile()</tspan><tspan x="1160.0" y="163.2">    self.dataPrep = createDataPrep( config.dataSetType )</tspan><tspan x="1160.0" y="183.2">    validateConfig( self.config, self.dataPrep )</tspan><tspan x="1160.0" y="203.2">    calculation = createCalculation( config.calculationType )</tspan><tspan x="1160.0" y="223.2">    inputLayer, hiddenLayers, outputLayer =</tspan><tspan x="1160.0" y="243.2">        createLayers( config.topology, config.activations, calculation, config.seed )</tspan><tspan x="1160.0" y="263.2">    self.mlp = MLP( inputLayer, hiddenLayers, outputLayer )</tspan><tspan x="1160.0" y="283.2">    self.optimizer = createOptimizer( config.optimizerType )</tspan><tspan x="1160.0" y="303.2">    self.epochErrors = train()</tspan><tspan x="1160.0" y="323.2">readEnvFile() : Config</tspan><tspan x="1160.0" y="343.2">validateConfig( config, dataPrep )</tspan><tspan x="1160.0" y="363.2">createDataPrep( dataSetType ) : DataPrep</tspan><tspan x="1160.0" y="383.2">loadMnist() : rawImages, rawLabels</tspan><tspan x="1160.0" y="403.2">createCalculation( calculationType ) : Calculation</tspan><tspan x="1160.0" y="423.2">createActivation( activationName ) : ActivationFunction</tspan><tspan x="1160.0" y="443.2">createLayers( topology, activations, calculation, seed )</tspan><tspan x="1160.0" y="463.2">    : inputLayer, hiddenLayers, outputLayer</tspan><tspan x="1160.0" y="483.2">createOptimizer( optimizerType ) : Optimizer</tspan><tspan x="1160.0" y="503.2">train() : List epochErrors</tspan><tspan x="1160.0" y="523.2">trainStep( imageBatch, labelBatch ) : errorValue</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1160.0" y="559.2">Config config</tspan><tspan x="1160.0" y="579.2">DataPrep dataPrep</tspan><tspan x="1160.0" y="599.2">MLP mlp</tspan><tspan x="1160.0" y="619.2">Optimizer optimizer</tspan><tspan x="1160.0" y="639.2">List epochErrors</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="572.0" y="907.2">«dataclass»</tspan><tspan x="572.0" y="927.2">Config</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="436.0" y="1001.2">dataSetType : str</tspan><tspan x="436.0" y="1021.2">topology : list[int]</tspan><tspan x="436.0" y="1041.2">activations : list[str]</tspan><tspan x="436.0" y="1061.2">calculationType : str</tspan><tspan x="436.0" y="1081.2">optimizerType : str</tspan><tspan x="436.0" y="1101.2">epochCount : int</tspan><tspan x="436.0" y="1121.2">batchSize : int</tspan><tspan x="436.0" y="1141.2">seed : int</tspan><tspan x="436.0" y="1161.2">learningRate : float | None = None</tspan><tspan x="436.0" y="1181.2">alpha : float | None = None</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="797.2">Class</tspan><tspan x="1500.0" y="817.2">MLP</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1288.0" y="855.2">__init__( inputLayer, hiddenLayers, outputLayer )</tspan><tspan x="1288.0" y="875.2">forwardPropagation( currentBatch ) : prediction</tspan><tspan x="1288.0" y="895.2">calculateLoss( prediction, targetValue ) : errorValue</tspan><tspan x="1288.0" y="915.2">backwardPropagation( targetValue ) : List gradients</tspan><tspan x="1288.0" y="935.2">getWeights() : List currWeights</tspan><tspan x="1288.0" y="955.2">setWeights( List newWeights )</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1288.0" y="991.2">InputLayer inputLayer</tspan><tspan x="1288.0" y="1011.2">List&lt;HiddenLayer&gt; hiddenLayers</tspan><tspan x="1288.0" y="1031.2">OutputLayer outputLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2614.0" y="145.2">«interface»</tspan><tspan x="2614.0" y="165.2">Optimizer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2458.0" y="203.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2188.0" y="385.2">Class</tspan><tspan x="2188.0" y="405.2">GradientDescent</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2032.0" y="443.2">__init__( learningRate )</tspan><tspan x="2032.0" y="463.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2032.0" y="499.2">learningRate</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2614.0" y="385.2">Class</tspan><tspan x="2614.0" y="405.2">Rprop</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2426.0" y="443.2">__init__( n_pos=1.2, n_neg=0.5, delta_null=0.5,</tspan><tspan x="2426.0" y="463.2">    deltaMin=0, deltaMax=50 )</tspan><tspan x="2426.0" y="483.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2426.0" y="519.2">List delta, List g_old</tspan><tspan x="2426.0" y="539.2">n_pos, n_neg, delta_null, deltaMin, deltaMax</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="3040.0" y="385.2">Class</tspan><tspan x="3040.0" y="405.2">Adam</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2884.0" y="443.2">__init__( alpha=0.001, beta_1=0.9,</tspan><tspan x="2884.0" y="463.2">    beta_2=0.999, epsilon=1e-8 )</tspan><tspan x="2884.0" y="483.2">optimize( List g, List w_old ) : w_Curr</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2884.0" y="519.2">List m, List v, t</tspan><tspan x="2884.0" y="539.2">alpha, beta_1, beta_2, epsilon</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="1189.2">«interface»</tspan><tspan x="1500.0" y="1209.2">Layer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1316.0" y="1247.2">forwardStep( neuronValuesPrev ) : neuronValues</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1268.0" y="1461.2">Class</tspan><tspan x="1268.0" y="1481.2">InputLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1084.0" y="1519.2">__init__( neuronCount )</tspan><tspan x="1084.0" y="1539.2">forwardStep( neuronValuesPrev ) : neuronValues</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1084.0" y="1575.2">neuronCount</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1900.0" y="1461.2">«abstract»</tspan><tspan x="1900.0" y="1481.2">DenseLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1644.0" y="1519.2">__init__( calculation, neuronCountPrev, neuronCount, weightRng )</tspan><tspan x="1644.0" y="1539.2">initializeWeights( weightRng )</tspan><tspan x="1644.0" y="1559.2">forwardStep( neuronValuesPrev ) : neuronValues</tspan><tspan x="1644.0" y="1579.2">activate( net ) : neuronValues   «abstract»</tspan><tspan x="1644.0" y="1599.2">backwardStep( backpropError ) : gradient, deltaPrevLayer</tspan><tspan x="1644.0" y="1619.2">calculateDelta( backpropError ) : delta   «abstract»</tspan><tspan x="1644.0" y="1639.2">getWeights() : weights</tspan><tspan x="1644.0" y="1659.2">setWeights( newWeights )</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1644.0" y="1695.2">neuronCount</tspan><tspan x="1644.0" y="1715.2">neuronCountPrev</tspan><tspan x="1644.0" y="1735.2">weights</tspan><tspan x="1644.0" y="1755.2">neuronValuesExt</tspan><tspan x="1644.0" y="1775.2">Calculation calculation</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1588.0" y="1953.2">Class</tspan><tspan x="1588.0" y="1973.2">HiddenLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1412.0" y="2011.2">__init__( calculation, neuronCountPrev,</tspan><tspan x="1412.0" y="2031.2">    neuronCount, activationFunc, weightRng )</tspan><tspan x="1412.0" y="2051.2">activate( net ) : neuronValues</tspan><tspan x="1412.0" y="2071.2">calculateDelta( backpropError ) : delta</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1412.0" y="2107.2">net</tspan><tspan x="1412.0" y="2127.2">activationFunc</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2132.0" y="1953.2">Class</tspan><tspan x="2132.0" y="1973.2">OutputLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1876.0" y="2011.2">__init__( calculation, neuronCountPrev, neuronCount, weightRng )</tspan><tspan x="1876.0" y="2031.2">activate( net ) : prediction</tspan><tspan x="1876.0" y="2051.2">softmax( net ) : prediction</tspan><tspan x="1876.0" y="2071.2">calculateDelta( targetValue ) : delta</tspan><tspan x="1876.0" y="2091.2">categoricalCrossEntropy( prediction, targetValue )</tspan><tspan x="1876.0" y="2111.2">    : errorValue</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1876.0" y="2147.2">prediction</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2872.0" y="1461.2">«interface»</tspan><tspan x="2872.0" y="1481.2">Calculation</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2640.0" y="1519.2">calculateNet( extendedInput, currentWeights ) : net</tspan><tspan x="2640.0" y="1539.2">calculateGradient( extendedInput, delta ) : gradient</tspan><tspan x="2640.0" y="1559.2">calculateBackpropError( delta, weights(without row null) )</tspan><tspan x="2640.0" y="1579.2">    : deltaPrevLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2872.0" y="1793.2">Class</tspan><tspan x="2872.0" y="1813.2">Loop</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="2640.0" y="1851.2">__init__()</tspan><tspan x="2640.0" y="1871.2">calculateNet( extendedInput, currentWeights ) : net</tspan><tspan x="2640.0" y="1891.2">calculateGradient( extendedInput, delta ) : gradient</tspan><tspan x="2640.0" y="1911.2">calculateBackpropError( delta, weights(without row null) )</tspan><tspan x="2640.0" y="1931.2">    : deltaPrevLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="3418.0" y="1793.2">Class</tspan><tspan x="3418.0" y="1813.2">Matrix</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="3186.0" y="1851.2">__init__()</tspan><tspan x="3186.0" y="1871.2">calculateNet( extendedInput, currentWeights ) : net</tspan><tspan x="3186.0" y="1891.2">calculateGradient( extendedInput, delta ) : gradient</tspan><tspan x="3186.0" y="1911.2">calculateBackpropError( delta, weights(without row null) )</tspan><tspan x="3186.0" y="1931.2">    : deltaPrevLayer</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1588.0" y="2325.2">«interface»</tspan><tspan x="1588.0" y="2345.2">ActivationFunction</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1428.0" y="2383.2">activationFunc( net ) : output</tspan><tspan x="1428.0" y="2403.2">activationFuncDerivative( net ) : output</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1186.0" y="2617.2">Class</tspan><tspan x="1186.0" y="2637.2">ReLU</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1026.0" y="2675.2">activationFunc( net ) : output</tspan><tspan x="1026.0" y="2695.2">activationFuncDerivative( net ) : output</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1588.0" y="2617.2">Class</tspan><tspan x="1588.0" y="2637.2">Sigmoid</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1428.0" y="2675.2">activationFunc( net ) : output</tspan><tspan x="1428.0" y="2695.2">activationFuncDerivative( net ) : output</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1990.0" y="2617.2">Class</tspan><tspan x="1990.0" y="2637.2">Identity</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="1830.0" y="2675.2">activationFunc( net ) : output</tspan><tspan x="1830.0" y="2695.2">activationFuncDerivative( net ) : output</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1054.0" y="301.5">nutzt</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="934.0" y="773.3">nutzt</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2149.0" y="258.0">nutzt</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="717.2">trainiert</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1500.0" y="1109.2">besteht aus</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="2398.0" y="1576.2">nutzt</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="middle" xml:space="preserve"><tspan x="1588.0" y="2225.2">nutzt</tspan></text>
+<text font-size="16" fill="#1e1e1e" text-anchor="middle" xml:space="preserve"><tspan x="600.0" y="539.2">Legende</tspan></text>
+<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="570.0" y="587.2">implementiert (Interface)</tspan></text>
+<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="570.0" y="627.2">erbt von (Klasse)</tspan></text>
+<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="570.0" y="667.2">nutzt</tspan></text>
+<text font-size="16" fill="#1e1e1e" text-anchor="start" xml:space="preserve"><tspan x="570.0" y="707.2">besteht aus</tspan></text>
+<text font-size="16" fill="#2f9e44" text-anchor="start" xml:space="preserve"><tspan x="495.0" y="747.2">grün = abgehakt</tspan></text>
 </svg>

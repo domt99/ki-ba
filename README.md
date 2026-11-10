@@ -33,7 +33,7 @@ notebooks/   exploration & experiments
 data/        datasets — local only, gitignored (see data/README.md)
 models/      trained weights/checkpoints — local only, gitignored
 tests/       tests
-docs/        report, slides, figures (MLP architecture: docs/architecture/)
+docs/        report, slides, figures (MLP architecture: docs/architecture/, task 2a component table: docs/Meilenstein2a-Komponenten.pdf)
 ROADMAP.md   shared notes, ideas, todos
 ```
 

@@ -12,7 +12,7 @@ Based on the class diagram we're drawing in Excalidraw.
 
 **Legend** (as in the diagram): dashed line + hollow triangle = *implements (interface)*, solid line +
 hollow triangle = *inherits from (class)*, plain arrow = *uses*, diamond = *consists of*.
-**Green = done** (designed): everything except `Framework` and `Datenaufbereitung`, which are still open.
+**Green = done** (designed): all components, including `Framework`, `Config` and `DataPrep`.
 
 ---
 
