@@ -45,6 +45,10 @@ class DenseLayer(Layer):
     def get_weights(self):
         return self.weights
 
+    def count_parameters(self):
+        # weights include the bias row, see _initialize_weights
+        return self.weights.size
+
     def set_weights(self, new_weights):
         if new_weights.shape != self.weights.shape:
             raise TypeError("New weights have wrong dimension")

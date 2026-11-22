@@ -48,7 +48,7 @@ def save_result(folder, framework, initials, duration_seconds, test_accuracy=Non
         "run_by": initials,
         "created": datetime.now().isoformat(timespec="seconds"),
         "config": asdict(framework.config),
-        "parameter_count": None,
+        "parameter_count": framework.mlp.count_parameters(),
         "duration_seconds": round(duration_seconds, 1),
         "best_epoch": framework.best_epoch,
         "best_validation_accuracy": _to_float(framework.best_validation_accuracy)

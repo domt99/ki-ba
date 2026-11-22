@@ -50,3 +50,7 @@ class MLP:
             self.hidden_layers[i].set_weights(new_weights[i])
 
         self.output_layer.set_weights(new_weights[-1])
+
+    def count_parameters(self):
+        layers = [*self.hidden_layers, self.output_layer]
+        return sum(layer.count_parameters() for layer in layers)

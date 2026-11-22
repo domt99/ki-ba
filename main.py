@@ -37,6 +37,7 @@ def main():
     args = parse_args()
     initials = get_initials()
     framework = Framework(template=args.template)
+    print(f"Parameters: {framework.mlp.count_parameters():,}".replace(",", " "))
 
     start = time.perf_counter()
     epoch_errors, train_accuracy, validation_accuracy = framework.train()
