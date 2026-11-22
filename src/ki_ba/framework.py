@@ -29,6 +29,12 @@ class Framework:
         self.mlp = MLP(input_layer, hidden_layers, output_layer)
         self.optimizer = self.create_optimizer(self.config.optimizer_type)
         self.epoch_errors = []
+        self.validation_accuracy = []
+        self.train_accuracy = []
+        self.best_weights = None
+        self.best_epoch = None
+        self.best_validation_accuracy = -1
+
 
     def read_env_file(self, env_path=".env", template_folder="configs"):
         env_path = Path(env_path)
@@ -242,15 +248,53 @@ class Framework:
 
     def train(self):
         batch_size = self.config.batch_size
+        validation_images, validation_labels = self.data_prep.get_validation_data()
+        has_validation = len(validation_images) > 0
+
         for epoch in range(0, self.config.epoch_count):
             mini_batches = self.data_prep.get_mini_batches(batch_size)
             sum_batch_errors = 0
             for image_batch, label_batch in mini_batches:
-                sum_batch_errors = sum_batch_errors + self.train_step(image_batch=image_batch, label_batch=label_batch)
+                sum_batch_errors = sum_batch_errors + self.train_step(image_batch, label_batch)
             self.epoch_errors.append(sum_batch_errors / len(mini_batches))
 
-        return self.epoch_errors
+            self.train_accuracy.append(
+                self.calculate_accuracy(self.data_prep.train_images, self.data_prep.train_labels)
+            )
 
+            if has_validation:
+                self.validation_accuracy.append(
+                    self.calculate_accuracy(validation_images, validation_labels)
+                )
+                if self.validation_accuracy[-1] >= self.best_validation_accuracy:
+                    self.best_validation_accuracy = self.validation_accuracy[-1]
+                    self.best_weights = [weights.copy() for weights in self.mlp.get_weights()]
+                    self.best_epoch = epoch + 1
+            else:
+                self.validation_accuracy.append(None)
+
+            self._print_epoch(epoch)
+
+        if self.best_weights is not None:
+            self.mlp.set_weights(self.best_weights)
+            print(
+                f"Best: epoch {self.best_epoch}, "
+                f"val {self.best_validation_accuracy:.2%} → weights restored"
+            )
+
+        return self.epoch_errors, self.train_accuracy, self.validation_accuracy
+
+    def _print_epoch(self, epoch):
+        epoch_count = self.config.epoch_count
+        width = len(str(epoch_count))
+        val = self.validation_accuracy[-1]
+        val_text = f"{val:7.2%}" if val is not None else "    –  "
+        print(
+            f"Epoch {epoch + 1:>{width}}/{epoch_count}"
+            f" │ loss {self.epoch_errors[-1]:.4f}"
+            f" │ train {self.train_accuracy[-1]:7.2%}"
+            f" │ val {val_text}"
+        )
 
     def train_step(self, image_batch, label_batch):
         prediction = self.mlp.forward_propagation(image_batch)
@@ -272,4 +316,22 @@ class Framework:
         if not value:
             return None
         return float(value)
-    
+
+    def calculate_accuracy(self, images, labels):
+        prediction = self.mlp.forward_propagation(images)
+        predicted_classes = np.argmax(prediction, axis=1)
+        true_classes = np.argmax(labels, axis=1)
+        result = predicted_classes == true_classes
+        return np.mean(result)
+
+    def calculate_confusion_matrix(self, images, labels):
+        prediction = self.mlp.forward_propagation(images)
+        predicted_classes = np.argmax(prediction, axis=1)
+        true_classes = np.argmax(labels, axis=1)
+
+        class_count = self.data_prep.class_count
+        confusion_matrix = np.zeros((class_count, class_count), dtype=int)
+        for true_class, predicted_class in zip(true_classes, predicted_classes):
+            confusion_matrix[true_class, predicted_class] += 1
+
+        return confusion_matrix
