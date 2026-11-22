@@ -13,3 +13,7 @@ class Config:
     seed: int
     # step size for GradientDescent (learning_rate) and Adam (alpha); Rprop doesn't use it
     learning_rate: float | None = None
+    # initial step size for Rprop; only used by rprop, None keeps the optimizer default
+    delta_null: float | None = None
+    # template file the values came from, None if they are set directly in .env
+    template: str | None = None

@@ -16,6 +16,20 @@ git config core.hooksPath .githooks  # auto-adds the other person as co-author
 cp .env.example .env # picks the run configuration (templates in configs/)
 ```
 
+## Running
+
+```bash
+uv run python main.py                                # config from .env (TEMPLATE=... or keys)
+uv run python main.py --template mnist-30-adam.env   # template from configs/, overrides .env
+uv run python main.py --template mnist-adam.env --test  # also evaluate the test data
+uv run python compare.py [--markdown]                # table of all MNIST runs (validation only)
+```
+
+Compare configurations on the validation data only; use `--test` once, for the final
+configuration. Each run writes `result.json` (config, seed, accuracy per epoch, best epoch)
+and its plots to `results/<date>_<time>_<initials>_<template>/`. The initials (`dt`/`mm`)
+come from `git config user.email`. Results are committed, so both of us see all runs.
+
 ## Common commands
 
 ```bash

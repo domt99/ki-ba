@@ -16,8 +16,8 @@ from ki_ba.mlp import MLP
 
 
 class Framework:
-    def __init__(self):
-        self.config = self.read_env_file()
+    def __init__(self, template=None):
+        self.config = self.read_env_file(template=template)
         self.data_prep = self.create_data_prep(self.config.data_set_type)
         self.validate_config(self.config, self.data_prep)
         input_layer, hidden_layers, output_layer = self.create_layers(
@@ -36,11 +36,12 @@ class Framework:
         self.best_validation_accuracy = -1
 
 
-    def read_env_file(self, env_path=".env", template_folder="configs"):
+    def read_env_file(self, env_path=".env", template_folder="configs", template=None):
         env_path = Path(env_path)
         values = dotenv_values(env_path)
 
-        template = values.get("TEMPLATE")
+        # a template passed in (e.g. via --template) wins over TEMPLATE in .env
+        template = template or values.get("TEMPLATE")
         if template:
             template_path = env_path.parent / template_folder / template
             if not template_path.is_file():
@@ -72,6 +73,8 @@ class Framework:
             batch_size=int(self._require(values, "BATCH_SIZE")),
             seed=int(self._require(values, "SEED")),
             learning_rate=self._optional_float(values, "LEARNING_RATE"),
+            delta_null=self._optional_float(values, "DELTA_NULL"),
+            template=template or None,
         )
 
     def validate_config(self, config, data_prep):
@@ -217,12 +220,19 @@ class Framework:
     def create_optimizer(self, optimizer_type):
 
         learning_rate = self.config.learning_rate
+        delta_null = self.config.delta_null
 
         if optimizer_type == "rprop" and learning_rate is not None:
             raise ValueError("Rprop does not use LEARNING_RATE, remove it from the env file")
 
         if optimizer_type != "rprop" and learning_rate is not None and learning_rate <= 0:
             raise ValueError(f"LEARNING_RATE must be > 0, got {learning_rate}")
+
+        if optimizer_type != "rprop" and delta_null is not None:
+            raise ValueError("DELTA_NULL is only used by rprop, remove it from the env file")
+
+        if delta_null is not None and delta_null <= 0:
+            raise ValueError(f"DELTA_NULL must be > 0, got {delta_null}")
     
         match optimizer_type:
             case "gradient_descent":
@@ -232,7 +242,10 @@ class Framework:
                     return GradientDescent(learning_rate=learning_rate)
 
             case "rprop":
-                return Rprop()
+                if delta_null is None:
+                    return Rprop()
+                else:
+                    return Rprop(delta_null=delta_null)
 
             case "adam":
                 if learning_rate is None:
@@ -335,3 +348,17 @@ class Framework:
             confusion_matrix[true_class, predicted_class] += 1
 
         return confusion_matrix
+
+    def find_misclassified(self, images, labels):
+        prediction = self.mlp.forward_propagation(images)
+        predicted_classes = np.argmax(prediction, axis=1)
+        true_classes = np.argmax(labels, axis=1)
+
+        indices = np.where(predicted_classes != true_classes)[0]
+        confidences = prediction[indices, predicted_classes[indices]]
+
+        # most confident mistakes first
+        order = np.argsort(-confidences)
+        indices = indices[order]
+
+        return indices, true_classes[indices], predicted_classes[indices], confidences[order]
