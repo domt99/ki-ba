@@ -1,0 +1,69 @@
+{
+  "run_by": "dt",
+  "created": "2026-11-22T20:15:35",
+  "config": {
+    "data_set_type": "mnist",
+    "topology": [
+      784,
+      256,
+      128,
+      64,
+      10
+    ],
+    "activations": [
+      "relu",
+      "relu",
+      "relu"
+    ],
+    "calculation_type": "matrix",
+    "optimizer_type": "adam",
+    "epoch_count": 10,
+    "batch_size": 32,
+    "seed": 42,
+    "learning_rate": 0.001,
+    "delta_null": null,
+    "template": "mnist-256-128-64-adam.env"
+  },
+  "parameter_count": 242762,
+  "duration_seconds": 36.1,
+  "best_epoch": 10,
+  "best_validation_accuracy": 0.975,
+  "test_evaluated": false,
+  "test_accuracy": null,
+  "epoch_errors": [
+    0.22445780239407384,
+    0.09688206185602481,
+    0.06772131295657283,
+    0.05296190240978195,
+    0.04136787044935073,
+    0.03459513587407019,
+    0.02906431583876186,
+    0.02626439248104894,
+    0.02420739484453561,
+    0.02174060684602041
+  ],
+  "train_accuracy": [
+    0.9698,
+    0.9817,
+    0.9871,
+    0.9797,
+    0.99194,
+    0.9903,
+    0.99024,
+    0.99052,
+    0.99208,
+    0.99432
+  ],
+  "validation_accuracy": [
+    0.9624,
+    0.9713,
+    0.9739,
+    0.9663,
+    0.9742,
+    0.9739,
+    0.9714,
+    0.9716,
+    0.9745,
+    0.975
+  ]
+}
