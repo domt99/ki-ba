@@ -13,6 +13,7 @@ git clone git@github.com:domt99/ki-ba.git
 cd ki-ba
 uv sync              # creates .venv and installs all deps (incl. dev tools)
 git config core.hooksPath .githooks  # auto-adds the other person as co-author
+cp .env.example .env # picks the run configuration (templates in configs/)
 ```
 
 ## Common commands

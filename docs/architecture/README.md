@@ -21,7 +21,7 @@ hollow triangle = *inherits from (class)*, plain arrow = *uses*, diamond = *cons
 | # | Component | Role | Key methods |
 |---|-----------|------|-------------|
 | 1 | **Framework** (`main`) | Reads + validates the config, builds everything via factory methods, runs training | `readEnvFile()`, `validateConfig()`, `createDataPrep()`, `createCalculation()`, `createLayers()`, `createOptimizer()`, `train()`, `trainStep()` |
-| 2 | **Config** «dataclass» | All settings of one run | fields `dataSetType`, `topology`, `activations`, `calculationType`, `optimizerType`, `epochCount`, `batchSize`, `seed`, `learningRate`, `alpha` |
+| 2 | **Config** «dataclass» | All settings of one run | fields `dataSetType`, `topology`, `activations`, `calculationType`, `optimizerType`, `epochCount`, `batchSize`, `seed`, `learningRate` |
 | 3 | **DataPrep** | Scales the raw data, one-hot encodes labels, splits off validation data, delivers shuffled mini-batches | `_oneHot()`, `getMiniBatches(batchSize)`, `getValidationData()` |
 | 4 | **MLP** | The network: holds the layers, runs forward/backward passes over all of them | `forwardPropagation()`, `calculateLoss()`, `backwardPropagation()`, `getWeights()`, `setWeights()` |
 | 5 | **Layer** «interface» | What every layer can do | `forwardStep(neuronValuesPrev)` |
@@ -83,7 +83,8 @@ flowchart TD
 
 1. **`readEnvFile()`** loads the run settings into a **`Config`**: `dataSetType`, `topology` (neurons per layer),
    `activations` (one name per hidden layer), `calculationType`, `optimizerType`, `epochCount`, `batchSize`, `seed`
-   and the optimizer's step size (`learningRate` for gradient descent, `alpha` for Adam).
+   and the optimizer's step size `learningRate` (passed to gradient descent as `learning_rate`, to Adam as
+   `alpha`; Rprop doesn't use it).
 2. **`createDataPrep(dataSetType)`** loads the raw data (`loadMnist()` → `rawImages`, `rawLabels`) and constructs
    **`DataPrep(rawImages, rawLabels, classCount, scaleFactor, validationSize, seed)`**. Its `__init__` scales the
    pixels (`scaleFactor`, e.g. 1/255 → range 0…1), one-hot encodes the labels (`_oneHot()`) and splits off
@@ -155,7 +156,7 @@ Things to settle while implementing:
       has no backward step, but MLP must then only call it on dense layers).
 - [ ] No evaluation step yet: `DataPrep.getValidationData()` exists, but nothing in the Framework computes
       validation/test accuracy per epoch.
-- [ ] `Config` only has `learningRate` and `alpha`; the other optimizer hyperparameters (`beta_1`, `beta_2`,
+- [ ] `Config` only has `learningRate`; the other optimizer hyperparameters (`beta_1`, `beta_2`,
       `epsilon`, Rprop's `n_pos`, …) always use their defaults. Fine for now, add fields if we want to tune them.
 
 ## Updating the diagram
