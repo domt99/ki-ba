@@ -44,7 +44,7 @@ class MLP:
 
     def set_weights(self, new_weights):
         if len(new_weights) != len(self.hidden_layers) + 1:
-            raise TypeError("New weights have the wrong dimension to be set")
+            raise ValueError("New weights have the wrong dimension to be set")
 
         for i in range(0, len(new_weights) - 1):
             self.hidden_layers[i].set_weights(new_weights[i])
