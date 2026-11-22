@@ -10,7 +10,6 @@ class ActivationFunction(ABC):
     def activation_derivative(self, net):
         pass
 
-
 class ReLU(ActivationFunction):
     def activation(self, net):
         return np.where(net > 0, net, 0)
