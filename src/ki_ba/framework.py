@@ -21,6 +21,10 @@ class Framework:
             values = dotenv_values(template_path)
 
         topology = [int(n) for n in self._require(values, "TOPOLOGY").split(",")]
+        if len(topology) < 3:
+            raise ValueError(
+                f"TOPOLOGY needs at least 3 layers (input, hidden, output), got {len(topology)}"
+            )
         activations = [a.strip().lower() for a in self._require(values, "ACTIVATIONS").split(",")]
         hidden_layer_count = len(topology) - 2
         if len(activations) == 1:
@@ -42,18 +46,6 @@ class Framework:
             seed=int(self._require(values, "SEED")),
             learning_rate=self._optional_float(values, "LEARNING_RATE"),
         )
-
-    def _require(self, values, key):
-        value = values.get(key)
-        if not value:
-            raise ValueError(f"{key} is missing in the env file")
-        return value
-
-    def _optional_float(self, values, key):
-        value = values.get(key)
-        if not value:
-            return None
-        return float(value)
 
     def validate_config(self, config, data_prep):
         ...
@@ -81,3 +73,16 @@ class Framework:
 
     def train_step(self, image_batch, label_batch):
         ...
+
+    def _require(self, values, key):
+        value = values.get(key)
+        if not value:
+            raise ValueError(f"{key} is missing in the env file")
+        return value
+
+    def _optional_float(self, values, key):
+        value = values.get(key)
+        if not value:
+            return None
+        return float(value)
+    
