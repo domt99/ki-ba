@@ -28,6 +28,13 @@ Task sheet: `docs/01_KI-BA_P (1).pdf` (sub-tasks (i)–(vi) = milestones 1–6).
 
 ## Todo (in this order)
 
+- [ ] **First, next session:** we don't understand the test scaffolds Claude prepared on
+      2026-11-22 yet (`tests/helpers.py`, `tests/test_xor_known_solution.py`,
+      `tests/test_gradient_check.py`, `tests/test_loop_vs_matrix.py`,
+      `scripts/benchmark_loop_vs_matrix.py`, commit `1396e44`). Decide together: either revert
+      them, or walk through them step by step with Claude until we understand them
+      (pytest basics, fixtures/parametrize, why tests are skipped, what each TODO expects).
+      Only then continue with 3b/3c/4c.
 - [ ] **3b** `tests/test_xor_known_solution.py`: enter values from slides "XOR-MLP: vorwärts"
       and "XOR-MLP: rückwärts" (not in the task PDF – we need the lecture slides), fill in
       the comparisons and the one-step test (o5 ≈ 0.08, o6 ≈ 0.92 after η = 0.5)
@@ -47,7 +54,18 @@ Task sheet: `docs/01_KI-BA_P (1).pdf` (sub-tasks (i)–(vi) = milestones 1–6).
 - [ ] ruff cleanup (postponed): import sorting (`ruff check --fix`), lines > 100,
       unused loop variable in `dataprep.py`, `zip(..., strict=True)` in
       `calculate_confusion_matrix`. Touches our required-part files – ask first
-- [ ] Extra: dashboard for `results/` (own dependency group), mock idea from 2026-11-22
+- [ ] Extra: dashboard for `results/` (own dependency group if it needs any). A mock was
+      shown on 2026-11-22 (not in the repo; liked it). Rough scope from that mock:
+  - static HTML/JS page, read-only, data = all `results/*/result.json`
+    (e.g. a small build script embeds them, or a local server reads them); served on localhost
+  - filters in one row: data set, optimizer, person (dt/mm); light/dark theme
+  - KPI tiles: number of runs, best val accuracy (topology, epoch), smallest net ≥ 97 % val,
+    test evaluation status (6c)
+  - charts: val accuracy per epoch for all runs (hover crosshair, legend highlight);
+    parameters (log x) vs. best val accuracy; learning curves (train/val + best epoch) and
+    loss of the selected run
+  - sortable comparison table like `compare.py` plus a "train − val" gap column,
+    no test accuracy; click a row or point to select a run; color follows the run
 
 ## Decisions
 
