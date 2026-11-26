@@ -40,6 +40,15 @@ Task sheet: `docs/01_KI-BA_P (1).pdf` (sub-tasks (i)–(vi) = milestones 1–6).
       the comparisons and the one-step test (o5 ≈ 0.08, o6 ≈ 0.92 after η = 0.5)
 - [ ] **3c** `tests/test_gradient_check.py`: `numerical_gradient`, `relative_error`, loop over
       all weights (h = 1e-6, relative error < 1e-6, mind the ReLU kink at 0)
+- [ ] [DT] "loop" option = everything with loops, not only the three methods in
+      `CalculateLoop`. Still vectorized today:
+  - activation functions + derivatives (`activation_function.py`: `np.where`, `np.tanh`, ...)
+  - delta = backprop error · f'(net) in `HiddenLayer.calculate_delta` (`layer.py`)
+  - bias column (`np.hstack`) in `forward_step`
+  - softmax and categorical cross-entropy (`layer.py`)
+  - optimizer weight update (`optimizer.py`)? – decide whether it belongs to the comparison
+- [ ] [DT] Runtime comparison matrix vs. loop for the full forward + backward step
+      (prerequisite for 4a/4d below)
 - [ ] **4c** `tests/test_loop_vs_matrix.py`: compare outputs + gradients with `np.allclose`
 - [ ] **4a/4d** run `uv run python scripts/benchmark_loop_vs_matrix.py` on our own laptops,
       put the numbers in the report
@@ -54,10 +63,26 @@ Task sheet: `docs/01_KI-BA_P (1).pdf` (sub-tasks (i)–(vi) = milestones 1–6).
 - [ ] ruff cleanup (postponed): import sorting (`ruff check --fix`), lines > 100,
       unused loop variable in `dataprep.py`, `zip(..., strict=True)` in
       `calculate_confusion_matrix`. Touches our required-part files – ask first
+- [ ] [DT] Idea: one notebook per milestone in `notebooks/` (e.g. `milestone_3.ipynb`) that
+      walks through the sub-task, runs the code and shows the plots/numbers for the report;
+      check how it relates to the existing `milestones/milestone_1.py`, `milestone_2.py`
+- [ ] [DT] Extra: classify a single image with an existing model
+  - save weights with every run (e.g. `weights.npz` in the run folder via
+    `get_weights`/`set_weights`), so a run can be loaded again
+  - script e.g. `scripts/predict.py --run <folder> --image <png>`: grayscale, 28×28,
+    scaled like DataPrep (and inverted if needed: MNIST is white on black), prints the
+    predicted digit + softmax probabilities
+  - file size: 784-300-10 ≈ 240k parameters ≈ 2 MB per run – decide whether weights
+    are committed or go in `.gitignore`
 - [ ] Extra: dashboard for `results/` (own dependency group if it needs any). A mock was
       shown on 2026-11-22 (not in the repo; liked it). Rough scope from that mock:
-  - static HTML/JS page, read-only, data = all `results/*/result.json`
-    (e.g. a small build script embeds them, or a local server reads them); served on localhost
+  - HTML/JS page with a small local server (localhost only), data = all
+    `results/*/result.json`
+  - [DT] start runs from the dashboard: pick a template/settings, the server starts
+    `main.py` in the background (never with `--test`), shows progress and puts the new run
+    straight into the charts/table for comparison
+  - [DT] if the single-image todo is done: upload/draw a digit and classify it with a
+    chosen run
   - filters in one row: data set, optimizer, person (dt/mm); light/dark theme
   - KPI tiles: number of runs, best val accuracy (topology, epoch), smallest net ≥ 97 % val,
     test evaluation status (6c)
