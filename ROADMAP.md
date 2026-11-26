@@ -81,8 +81,15 @@ Task sheet: `docs/01_KI-BA_P (1).pdf` (sub-tasks (i)–(vi) = milestones 1–6).
   - [DT] start runs from the dashboard: pick a template/settings, the server starts
     `main.py` in the background (never with `--test`), shows progress and puts the new run
     straight into the charts/table for comparison
-  - [DT] if the single-image todo is done: upload/draw a digit and classify it with a
-    chosen run
+  - [DT] if the single-image todo is done: classify single digits with a chosen run
+    - pick the model from a list of trained runs (only runs with saved weights)
+    - input either drawn on a canvas or uploaded as a single image file (e.g. PNG/JPG,
+      one digit per image)
+    - "center" toggle: on = crop and center like MNIST (bounding box → 20×20, center of
+      mass in 28×28), off = take the input as it is, to see how the net handles
+      input that differs from MNIST (off-center, different size)
+    - show the 28×28 input the net actually gets + predicted digit and softmax
+      probabilities
   - filters in one row: data set, optimizer, person (dt/mm); light/dark theme
   - KPI tiles: number of runs, best val accuracy (topology, epoch), smallest net ≥ 97 % val,
     test evaluation status (6c)
