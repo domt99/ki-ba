@@ -6,12 +6,12 @@ from ki_ba.plots import plot_confusion_matrix, plot_learning_curves, plot_miscla
 from ki_ba.results import create_run_folder, get_initials, save_result
 
 
-def print_confusion_matrix(confusion_matrix):
+def print_confusion_matrix(confusion_matrix, data_name):
     class_count = len(confusion_matrix)
     width = max(len(str(confusion_matrix.max())), 4)
 
     print()
-    print("Confusion matrix (rows: true, columns: predicted)")
+    print(f"Confusion matrix, {data_name} data (rows: true, columns: predicted)")
     header = " " * 6 + "".join(f"{c:>{width + 1}}" for c in range(class_count)) + " │ correct"
     print(header)
     print("─" * len(header))
@@ -52,6 +52,10 @@ def main():
     )
     print(f"Saved plot: {plot_path}")
 
+    validation_images, validation_labels = framework.data_prep.get_validation_data()
+    if len(validation_images) > 0:
+        plot_errors(framework, folder, validation_images, validation_labels, "validation")
+
     test_accuracy = None
     if args.test:
         test_accuracy = evaluate_test_data(framework, folder)
@@ -68,20 +72,29 @@ def evaluate_test_data(framework, folder):
 
     test_accuracy = framework.calculate_accuracy(test_images, test_labels)
     print(f"Test accuracy: {test_accuracy:.2%}")
-    confusion_matrix = framework.calculate_confusion_matrix(test_images, test_labels)
-    print_confusion_matrix(confusion_matrix)
-    plot_path = plot_confusion_matrix(confusion_matrix, folder / "confusion_matrix.png")
+    plot_errors(framework, folder, test_images, test_labels, "test")
+    return test_accuracy
+
+
+def plot_errors(framework, folder, images, labels, data_name):
+    confusion_matrix = framework.calculate_confusion_matrix(images, labels)
+    print_confusion_matrix(confusion_matrix, data_name)
+    plot_path = plot_confusion_matrix(
+        confusion_matrix, folder / f"confusion_matrix_{data_name}.png",
+        title=f"Confusion matrix ({data_name} data)",
+    )
     print(f"Saved plot: {plot_path}")
 
     indices, true_classes, predicted_classes, confidences = framework.find_misclassified(
-        test_images, test_labels
+        images, labels
     )
     plot_path = plot_misclassified(
-        test_images, indices, true_classes, predicted_classes, confidences,
-        folder / "misclassified.png",
+        images, indices, true_classes, predicted_classes, confidences,
+        folder / f"misclassified_{data_name}.png",
+        title=f"Misclassified {data_name} images (most confident first)",
     )
-    print(f"Saved plot: {plot_path}")
-    return test_accuracy
+    if plot_path is not None:
+        print(f"Saved plot: {plot_path}")
 
 
 if __name__ == "__main__":
